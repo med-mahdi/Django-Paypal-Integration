@@ -17,5 +17,5 @@ Before running the application, make sure you have the following installed:
 ```bash
 git clone https://github.com/med-mahdi/Django-Paypal-Integration.git
 
-1. Create and activate a virtual environment (optional but recommended):
+### Create and activate a virtual environment (optional but recommended):
 python -m venv venv
