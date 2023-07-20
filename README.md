@@ -17,35 +17,5 @@ Before running the application, make sure you have the following installed:
 ```bash
 git clone https://github.com/med-mahdi/Django-Paypal-Integration.git
 
-2. Create and activate a virtual environment (optional but recommended):
-
-```bash
+1. Create and activate a virtual environment (optional but recommended):
 python -m venv venv
-
-On macOS and Linux:
-```bash
-source venv/bin/activate
-
-On Windows:
-```bash
-venv\Scripts\activate
-
-Install the required packages:
-```bash
-pip install -r requirements.txt
-
-Apply the database migrations:
-```bash
-python manage.py migrate
-
-Create a superuser (for accessing the Django admin interface):
-```bash
-python manage.py createsuperuser
-
-Run the development server:
-```bash
-python manage.py runserver
-
-Access the application in your web browser at http://127.0.0.1:8000/.
-
-
