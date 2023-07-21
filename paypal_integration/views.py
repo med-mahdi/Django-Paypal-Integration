@@ -4,12 +4,6 @@ from django.shortcuts import redirect, render
 from paypal.standard.forms import PayPalPaymentsForm
 from django.conf import settings
 import random
-#
-from django.views.decorators.csrf import csrf_exempt
-from paypal.standard.models import ST_PP_COMPLETED  # Payment status for completed payment
-from paypal.standard.ipn.signals import valid_ipn_received
-from django.dispatch import receiver
-from django.contrib.auth.decorators import login_required
 
 
 
