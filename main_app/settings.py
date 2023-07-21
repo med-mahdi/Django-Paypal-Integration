@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-6gn^695koxw3_au8p@k^wznn(vfpq&1^(q434nsm%0#v6td02)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["web-production-b045.up.railway.app"]
-CSRF_TRUSTED_ORIGINS = ['https://web-production-b045.up.railway.app']
+ALLOWED_HOSTS = ["*"]
 
 
 PAYPAL_CLIENT_ID = 'AWUPgWGjObfZ5mXyoH15Qe0ocdm5bJydxnBikQgvIzXpubOa5V5Di80Vdh5obPpFZrrh-0Tp12JWBTcD'
