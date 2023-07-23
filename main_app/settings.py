@@ -29,10 +29,6 @@ ALLOWED_HOSTS = ["web-production-b045.up.railway.app"]
 CSRF_TRUSTED_ORIGINS = ['https://web-production-b045.up.railway.app']
 
 
-PAYPAL_CLIENT_ID = 'AWUPgWGjObfZ5mXyoH15Qe0ocdm5bJydxnBikQgvIzXpubOa5V5Di80Vdh5obPpFZrrh-0Tp12JWBTcD'
-PAYPAL_SECRET = 'AWUPgWGjObfZ5mXyoH15Qe0ocdm5bJydxnBikQgvIzXpubOa5V5Di80Vdh5obPpFZrrh-0Tp12JWBTcD'
-
-
 # Application definition
 
 INSTALLED_APPS = [
